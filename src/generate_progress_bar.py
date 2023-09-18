@@ -55,13 +55,13 @@ def create_progress_image(percentage):
     # Background
     draw.rounded_rectangle([bar_x, bar_y, bar_x + bar_width,
                            bar_y + bar_height], fill="#2C5364", radius=bar_height/2)
-    buffer = 5
+
     fill_width = int(bar_width * (percentage / 100))
 
     progress_bar = gradient_background(
         (int(bar_width), int(bar_height)), "#DA22FF", "#9733EE", "#2C5364")
     mask = create_rounded_rectangle_mask(
-        (int(fill_width), int(bar_height)), bar_height/2)
+        (int(fill_width), int(bar_height)), bar_height/2.7)
 
     img.paste(progress_bar.crop((0, 0, fill_width, bar_height)),
               (bar_x, bar_y), mask)
