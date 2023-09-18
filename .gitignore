@@ -1,0 +1,4 @@
+.env
+venv/
+src/__pycache__/
+generated_images/
