@@ -24,4 +24,4 @@ jobs:
           pip install Pillow  # Add any other dependencies here
 
       - name: Run script
-        run: python ./path_to_your_script/generate_progress_bar.py # Adjust this to the path of your script
+        run: python ./src/main.py # Adjust this to the path of your script
