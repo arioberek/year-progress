@@ -2,6 +2,9 @@
 
 This Python application tracks the year's progress and shares a visual progress bar on Instagram. It automatically generates a progress bar image, logs into an Instagram account, and posts the progress image with a caption indicating the percentage of the year completed.
 
+![instagram-post-mockup](https://github.com/arioberek/year-progress/assets/25717193/544cea67-5bcd-469e-8da2-97215bf49c7b)
+
+
 ## Features
 
 - Calculates the current year's progress as a percentage.
