@@ -73,7 +73,7 @@ def create_progress_image(percentage):
 
     # Draw the year and percentage text
     year = datetime.now().year
-    text = f"{year} está {percentage:.0f}% completo"
+    text = f"{year} is {percentage:.0f}% complete"
     bbox = draw.textbbox((0, 0), text, font=font)
     text_width, text_height = bbox[2] - bbox[0], bbox[3] - bbox[1]
 
